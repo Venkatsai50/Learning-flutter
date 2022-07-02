@@ -2,9 +2,6 @@ import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
-  final int days = 30;
-  final String name = "venkat";
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,6 +14,7 @@ class Home extends StatelessWidget {
           child: Text("my name is venkat"),
         ),
       ),
+      drawer: Drawer(),
     );
   }
 }
